@@ -1,7 +1,6 @@
 # Mediverse
 
 <div align="center">
-  <img src="public/logo.png" alt="Mediverse Logo" width="200">
   <p><strong>Next-generation healthcare platform with advanced UI</strong></p>
 </div>
 
@@ -78,12 +77,6 @@ Mediverse is a cutting-edge healthcare platform that combines modern web technol
   - Lucide React icons
   - Sonner for toast notifications
 
-## 📷 Screenshots
-
-<div align="center">
-  <img src="public/banner.png" alt="Mediverse Screenshot" width="800">
-</div>
-
 ## 🔧 Project Structure
 
 ```
@@ -104,10 +97,6 @@ Mediverse is a cutting-edge healthcare platform that combines modern web technol
 ## 🤝 Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
-
-## 📝 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## 👨‍💻 Author
 
