@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="500" height="500">
+  <!-- Background Circle with Gradient -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10b981" stop-opacity="0.2" />
+      <stop offset="100%" stop-color="#3b82f6" stop-opacity="0.2" />
+    </linearGradient>
+    
+    <linearGradient id="coatGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="100%" stop-color="#f0f0f0" />
+    </linearGradient>
+    
+    <linearGradient id="stethoscopeGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10b981" />
+      <stop offset="100%" stop-color="#3b82f6" />
+    </linearGradient>
+    
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+  
+  <!-- Background Circle -->
+  <circle cx="250" cy="250" r="240" fill="url(#bgGradient)" />
+  
+  <!-- Doctor Figure -->
+  <!-- Head -->
+  <circle cx="250" cy="150" r="70" fill="#f8d9b5" stroke="#e6c9a8" stroke-width="2" />
+  
+  <!-- Face Features -->
+  <!-- Eyes -->
+  <ellipse cx="225" cy="140" rx="10" ry="8" fill="#ffffff" />
+  <ellipse cx="275" cy="140" rx="10" ry="8" fill="#ffffff" />
+  <circle cx="225" cy="140" r="5" fill="#333333" />
+  <circle cx="275" cy="140" r="5" fill="#333333" />
+  
+  <!-- Eyebrows -->
+  <path d="M215,125 Q225,120 235,125" fill="none" stroke="#333333" stroke-width="3" stroke-linecap="round" />
+  <path d="M265,125 Q275,120 285,125" fill="none" stroke="#333333" stroke-width="3" stroke-linecap="round" />
+  
+  <!-- Smile -->
+  <path d="M225,170 Q250,190 275,170" fill="none" stroke="#333333" stroke-width="3" stroke-linecap="round" />
+  
+  <!-- Hair -->
+  <path d="M180,130 Q200,80 250,80 Q300,80 320,130" fill="#333333" />
+  
+  <!-- Lab Coat -->
+  <path d="M180,220 L170,350 L220,350 L230,380 L250,380 L270,380 L280,350 L330,350 L320,220 Q300,240 250,240 Q200,240 180,220 Z" fill="url(#coatGradient)" stroke="#e6e6e6" stroke-width="2" />
+  
+  <!-- Neck -->
+  <path d="M230,220 L230,250 L270,250 L270,220" fill="#f8d9b5" />
+  
+  <!-- Collar -->
+  <path d="M230,250 L220,280 L280,280 L270,250" fill="#e6e6e6" />
+  
+  <!-- Stethoscope -->
+  <path d="M240,280 C230,300 220,320 220,340 C220,350 230,350 230,340 C230,330 240,310 250,300" fill="none" stroke="url(#stethoscopeGradient)" stroke-width="5" stroke-linecap="round" filter="url(#glow)" />
+  <circle cx="250" cy="300" r="10" fill="url(#stethoscopeGradient)" filter="url(#glow)" />
+  
+  <!-- Medical Cross Symbol -->
+  <rect x="240" y="320" width="20" height="40" rx="2" fill="#ff6b6b" />
+  <rect x="230" y="330" width="40" height="20" rx="2" fill="#ff6b6b" />
+  
+  <!-- Pocket -->
+  <rect x="240" y="290" width="20" height="25" rx="2" fill="#f0f0f0" stroke="#e6e6e6" stroke-width="1" />
+  
+  <!-- Pen in Pocket -->
+  <rect x="245" y="290" width="3" height="20" rx="1" fill="#3b82f6" />
+  <rect x="250" y="290" width="3" height="20" rx="1" fill="#10b981" />
+</svg>
